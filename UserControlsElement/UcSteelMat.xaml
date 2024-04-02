@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="NCKH.UserControlsElement.UcSteelMat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NCKH.UserControlsElement"
+             mc:Ignorable="d" 
+             Width="500"
+             Background="{StaticResource LightBackGround}"
+             DataContext="{StaticResource MainViewModel}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="275"></ColumnDefinition>
+            <ColumnDefinition Width="175"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Style x:Key="txb" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="10"></Setter>
+                <Setter Property="Text" Value="{Binding Unit}"></Setter>
+                <Setter Property="Padding" Value="5"></Setter>
+                <Setter Property="Margin" Value="90,5,20,5"></Setter>
+                <Setter Property="Background" Value="Transparent"></Setter>
+            </Style>
+            <Style x:Key="txbPro" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="10"></Setter>
+                <Setter Property="Padding" Value="5"></Setter>
+                <Setter Property="Margin" Value="10,5,50,0"></Setter>
+                <Setter Property="Background" Value="Transparent"></Setter>
+            </Style>
+        </Grid.Resources>
+        <TextBlock Grid.Row="0"
+                           Grid.Column="0"
+                           Text="Modulus of Elasticity, E "
+                           Style="{StaticResource txbPro}"></TextBlock>
+        <TextBox Grid.Row="0"
+                           Grid.Column="1"
+                           Margin="0,5,90,5"
+                           Background="White"
+                           FontSize="10"
+                           x:Name="txb_Modulus_Steel"
+                           ></TextBox>
+        <TextBlock Grid.Row="0"
+                           Grid.Column="1"
+                           Style="{StaticResource txb}"
+                           ></TextBlock>
+        <TextBlock Grid.Row="1"
+                           Grid.Column="0"
+                           Text="Poison's Ratio, U"
+                          Style="{StaticResource txbPro}"></TextBlock>
+        <TextBox Grid.Row="1"
+                           Grid.Column="1"
+                           Margin="0,5,90,5"
+                           Background="White"
+                           FontSize="10"
+                           ></TextBox>
+        <TextBlock Grid.Row="2"
+                           Grid.Column="0"
+                           Text="Yield Strength, Fy "
+                           Style="{StaticResource txbPro}"></TextBlock>
+        <TextBox Grid.Row="2"
+                           Grid.Column="1"
+                           Margin="0,5,90,5"
+                           Background="White"
+                           FontSize="10"
+                           x:Name="txb_fy"
+                           ></TextBox>
+        <TextBlock Grid.Row="2"
+                           Grid.Column="1"
+                           Style="{StaticResource txb}"></TextBlock>
+
+        <TextBlock Grid.Row="3"
+                           Grid.Column="0"
+                           Text="Tesile Strength, Fu "
+                           Style="{StaticResource txbPro}"></TextBlock>
+        <TextBox Grid.Row="3"
+                           Grid.Column="1"
+                           Margin="0,5,90,5"
+                           Background="White"
+                           FontSize="10"
+                           x:Name="txb_fu"
+                           ></TextBox>
+        <TextBlock Grid.Row="3"
+                           Grid.Column="1"
+                           Style="{StaticResource txb}"></TextBlock>
+    </Grid>
+</UserControl>

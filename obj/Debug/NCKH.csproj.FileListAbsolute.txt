@@ -1,0 +1,172 @@
+C:\Users\bachk\Desktop\NCKH\NCKH\bin\Debug\NCKH.exe.config
+C:\Users\bachk\Desktop\NCKH\NCKH\bin\Debug\NCKH.exe
+C:\Users\bachk\Desktop\NCKH\NCKH\bin\Debug\NCKH.pdb
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH.csproj.AssemblyReference.cache
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\MainWindow.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\App.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH_MarkupCompile.cache
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH_MarkupCompile.lref
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\MainWindow.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH.g.resources
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH.Properties.Resources.resources
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH.csproj.GenerateResource.cache
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH.csproj.CoreCompileInputs.cache
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH.exe
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\NCKH.pdb
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\App.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\MainResource.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlViewPort.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlViewPort.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlsTreemenu.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlsTreemenu.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateNode.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteNode.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateNode.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteNode.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteElement.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteElement.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\PropertiesForm.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\PropertiesForm.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateMat.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateMat.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelMat.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelMat.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateElement.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateElement.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\MaterialDataForm.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\MaterialDataForm.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateShape.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateShape.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelShape.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelShape.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\ShapeForm.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\ShapeForm.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\SectionFormData.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\SectionFormData.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcRecConcreate.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcRecConcreate.baml
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\RebarProForm.g.cs
+C:\Users\bachk\Desktop\NCKH\NCKH\obj\Debug\RebarProForm.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\NCKH.exe.config
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\NCKH.exe
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\NCKH.pdb
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.csproj.AssemblyReference.cache
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\MainWindow.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\MaterialDataForm.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\PropertiesForm.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\RebarProForm.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\SectionFormData.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\ShapeForm.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateShape.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateElement.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateNode.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteElement.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteNode.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelMat.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelShape.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlsTreemenu.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlViewPort.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\App.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH_MarkupCompile.cache
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH_MarkupCompile.lref
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\App.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\MainResource.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\MainWindow.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\MaterialDataForm.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\PropertiesForm.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\RebarProForm.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\SectionFormData.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\ShapeForm.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateShape.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateElement.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateNode.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteElement.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteNode.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelMat.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelShape.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlsTreemenu.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlViewPort.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.g.resources
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.Properties.Resources.resources
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.csproj.GenerateResource.cache
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.csproj.CoreCompileInputs.cache
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.exe
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.pdb
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\NCKH.csproj.CopyComplete
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\LiveCharts.dll
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\LiveCharts.pdb
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\LiveCharts.xml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\DesignLoadForm.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\DesignLoadForm.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreteMat.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreteMat.baml
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcRecConcrete.g.cs
+C:\Users\Quang Huy\Desktop\NCKH\NCKH\obj\Debug\UserControlsElement\UcRecConcrete.baml
+E:\NCKH\NCKH\bin\Debug\NCKH.exe.config
+E:\NCKH\NCKH\bin\Debug\NCKH.exe
+E:\NCKH\NCKH\bin\Debug\NCKH.pdb
+E:\NCKH\NCKH\bin\Debug\HelixToolkit.Wpf.dll
+E:\NCKH\NCKH\bin\Debug\LiveCharts.dll
+E:\NCKH\NCKH\bin\Debug\LiveCharts.Wpf.dll
+E:\NCKH\NCKH\bin\Debug\HelixToolkit.Wpf.xml
+E:\NCKH\NCKH\bin\Debug\LiveCharts.pdb
+E:\NCKH\NCKH\bin\Debug\LiveCharts.xml
+E:\NCKH\NCKH\bin\Debug\LiveCharts.Wpf.pdb
+E:\NCKH\NCKH\bin\Debug\LiveCharts.Wpf.xml
+E:\NCKH\NCKH\obj\Debug\NCKH.csproj.AssemblyReference.cache
+E:\NCKH\NCKH\obj\Debug\DesignLoadForm.g.cs
+E:\NCKH\NCKH\obj\Debug\MainWindow.g.cs
+E:\NCKH\NCKH\obj\Debug\MaterialDataForm.g.cs
+E:\NCKH\NCKH\obj\Debug\PropertiesForm.g.cs
+E:\NCKH\NCKH\obj\Debug\RebarProForm.g.cs
+E:\NCKH\NCKH\obj\Debug\SectionFormData.g.cs
+E:\NCKH\NCKH\obj\Debug\ShapeForm.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateShape.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreteMat.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateElement.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateNode.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteElement.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteNode.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcRecConcrete.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelMat.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelShape.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlsTreemenu.g.cs
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlViewPort.g.cs
+E:\NCKH\NCKH\obj\Debug\App.g.cs
+E:\NCKH\NCKH\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\NCKH\NCKH\obj\Debug\NCKH_MarkupCompile.cache
+E:\NCKH\NCKH\obj\Debug\NCKH_MarkupCompile.lref
+E:\NCKH\NCKH\obj\Debug\App.baml
+E:\NCKH\NCKH\obj\Debug\DesignLoadForm.baml
+E:\NCKH\NCKH\obj\Debug\MainResource.baml
+E:\NCKH\NCKH\obj\Debug\MainWindow.baml
+E:\NCKH\NCKH\obj\Debug\MaterialDataForm.baml
+E:\NCKH\NCKH\obj\Debug\PropertiesForm.baml
+E:\NCKH\NCKH\obj\Debug\RebarProForm.baml
+E:\NCKH\NCKH\obj\Debug\SectionFormData.baml
+E:\NCKH\NCKH\obj\Debug\ShapeForm.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreateShape.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcConcreteMat.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateElement.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcCreateNode.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteElement.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcDeleteNode.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcRecConcrete.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelMat.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UcSteelShape.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlsTreemenu.baml
+E:\NCKH\NCKH\obj\Debug\UserControlsElement\UserControlViewPort.baml
+E:\NCKH\NCKH\obj\Debug\NCKH.g.resources
+E:\NCKH\NCKH\obj\Debug\NCKH.Properties.Resources.resources
+E:\NCKH\NCKH\obj\Debug\NCKH.csproj.GenerateResource.cache
+E:\NCKH\NCKH\obj\Debug\NCKH.csproj.CoreCompileInputs.cache
+E:\NCKH\NCKH\obj\Debug\NCKH.csproj.CopyComplete
+E:\NCKH\NCKH\obj\Debug\NCKH.exe
+E:\NCKH\NCKH\obj\Debug\NCKH.pdb

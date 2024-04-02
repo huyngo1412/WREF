@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68BCF379-BB91-4B46-96E1-DFC02BCD2ADF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NCKH</RootNamespace>
+    <AssemblyName>NCKH</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HelixToolkit.Wpf, Version=2.24.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
+      <HintPath>packages\HelixToolkit.Wpf.2.24.0\lib\net462\HelixToolkit.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="DesignLoadForm.xaml.cs">
+      <DependentUpon>DesignLoadForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialDataForm.xaml.cs">
+      <DependentUpon>MaterialDataForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PropertiesForm.xaml.cs">
+      <DependentUpon>PropertiesForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RebarProForm.xaml.cs">
+      <DependentUpon>RebarProForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SectionFormData.xaml.cs">
+      <DependentUpon>SectionFormData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShapeForm.xaml.cs">
+      <DependentUpon>ShapeForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcConcreateShape.xaml.cs">
+      <DependentUpon>UcConcreateShape.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcConcreteMat.xaml.cs">
+      <DependentUpon>UcConcreteMat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcCreateElement.xaml.cs">
+      <DependentUpon>UcCreateElement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcCreateNode.xaml.cs">
+      <DependentUpon>UcCreateNode.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcDeleteElement.xaml.cs">
+      <DependentUpon>UcDeleteElement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcDeleteNode.xaml.cs">
+      <DependentUpon>UcDeleteNode.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcRecConcrete.xaml.cs">
+      <DependentUpon>UcRecConcrete.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcSteelMat.xaml.cs">
+      <DependentUpon>UcSteelMat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UcSteelShape.xaml.cs">
+      <DependentUpon>UcSteelShape.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UserControlsTreemenu.xaml.cs">
+      <DependentUpon>UserControlsTreemenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsElement\UserControlViewPort.xaml.cs">
+      <DependentUpon>UserControlViewPort.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\BaseCommand.cs" />
+    <Compile Include="ViewModel\CommandModel.cs" />
+    <Compile Include="View\Analyze.cs" />
+    <Compile Include="View\Element.cs" />
+    <Compile Include="View\Concretes.cs" />
+    <Compile Include="View\Nodes.cs" />
+    <Compile Include="View\Section.cs" />
+    <Compile Include="View\Steels.cs" />
+    <Page Include="DesignLoadForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainResource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MaterialDataForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PropertiesForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RebarProForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SectionFormData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShapeForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcConcreateShape.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcConcreteMat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcCreateElement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcCreateNode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcDeleteElement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcDeleteNode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcRecConcrete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcSteelMat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UcSteelShape.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UserControlsTreemenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlsElement\UserControlViewPort.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Close.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\NewFile.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\OpenFile.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\SaveAs.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Export.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Excel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\TXT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Back.ico" />
+    <Resource Include="Image\Bottom.ico" />
+    <Resource Include="Image\Front.ico" />
+    <Resource Include="Image\left.ico" />
+    <Resource Include="Image\Right.ico" />
+    <Resource Include="Image\Top.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cir_Concreate.ico" />
+    <Resource Include="Image\I_Concreate.ico" />
+    <Resource Include="Image\Rec_Concreate.ico" />
+    <Resource Include="Image\T_Concreate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cir_Steel.ico" />
+    <Resource Include="Image\C_Steel.ico" />
+    <Resource Include="Image\I_Steel.ico" />
+    <Resource Include="Image\Rec_Steel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\NCKH.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

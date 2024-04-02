@@ -1,0 +1,124 @@
+﻿<UserControl x:Class="NCKH.UserControlsElement.UserControlsTreemenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NCKH.UserControlsElement"
+             mc:Ignorable="d" 
+             Background="Transparent"
+             >
+    <Grid Margin="0,5,0,0"
+          >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Height="25" 
+                           Padding="100,3,00,0"
+                           Text="Tree Menu" Background="{StaticResource DarkButton}"
+                           Foreground="{StaticResource DarkText}" Margin="2,2,0,3"></TextBlock>
+        <TabControl SelectionChanged="Tab_TreeMenu_SelectionChanged" x:Name="Tab_TreeMenu" Grid.Row="1"
+                     Background="{DynamicResource LightBackGround}">
+
+            <TabItem  Header="Node" Style="{StaticResource TabItemStyle}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition  Height="auto"></RowDefinition>
+                        <RowDefinition  Height="*"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                        <ColumnDefinition Width="50"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn_DataGridNodes"
+                                Height="20"
+                                Grid.Column="1"
+                                Margin="10,10,15,0"
+                                Content="..."></Button>
+                    <Grid Grid.Row="0" Grid.Column="0">
+
+                        <ComboBox
+                            x:Name="cb_Nodes"
+                            Grid.Column="0"
+                            Height="20"
+                            Margin="10,10,0,0" SelectionChanged="cb_Nodes_SelectionChanged"
+                           
+                            >
+                            <ComboBoxItem Content="Create Nodes"
+                                           >
+                            </ComboBoxItem>
+                            <ComboBoxItem Content="Delete Nodes">
+                            </ComboBoxItem>
+                            <ComboBoxItem Content="Translate Nodes">
+                            </ComboBoxItem>
+                        </ComboBox>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="0"
+                          Margin="0,5,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock FontSize="10"
+                                   Foreground="Black"
+                                   Margin="10,5,45,0.2"
+                                   Grid.Column="0" Grid.ColumnSpan="2">Start Node Numbers :</TextBlock>
+                        <TextBox x:Name="txb_StartNode"
+                                Grid.Column="1"
+                                Height="15"
+                                Margin="50,0,0,0"
+                                IsEnabled="False"
+                                 Background="{StaticResource BlackText}"
+                                Text=""></TextBox>
+                    </Grid>
+                    <Grid x:Name="UcNode" Grid.Row="2"
+                          ></Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Element" Style="{StaticResource TabItemStyle}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition  Height="auto"></RowDefinition>
+                        <RowDefinition  Height="auto"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                        <ColumnDefinition Width="50"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="0" Grid.Column="0">
+
+                        <ComboBox
+                            x:Name="cb_Element"
+                            Grid.Column="0"
+                            Height="20"
+                            Margin="10,10,10,0" 
+                           SelectionChanged="cb_Element_SelectionChanged"
+                            >
+                            <ComboBoxItem Content="Create Element"
+                                           >
+                            </ComboBoxItem>
+                            <ComboBoxItem Content="Delete Element">
+                            </ComboBoxItem>
+                            <ComboBoxItem Content="Translate Element">
+                            </ComboBoxItem>
+                        </ComboBox>
+                    </Grid>
+                    <Button x:Name="btn_DataGridElement"
+                                Height="20"
+                                Grid.Column="1"
+                                Margin="10,10,15,0"
+                                Content="..."></Button>
+                   
+                    <Grid x:Name="UcElement" Grid.Row="2"
+                          Margin="0,10,0,0"></Grid>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</UserControl>

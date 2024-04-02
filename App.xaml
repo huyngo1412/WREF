@@ -1,0 +1,37 @@
+﻿<Application x:Class="NCKH.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NCKH"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/MainResource.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            <BitmapImage x:Key="NCKH" UriSource="Image\NCKH.jpg"></BitmapImage>
+            <BitmapImage x:Key="NewFile" UriSource="Image\NewFile.ico"></BitmapImage>
+            <BitmapImage x:Key="OpenFile" UriSource="Image\OpenFile.ico"></BitmapImage>
+            <BitmapImage x:Key="Save" UriSource="Image\Save.ico"></BitmapImage>
+            <BitmapImage x:Key="SaveAs" UriSource="Image\SaveAs.ico"></BitmapImage>
+            <BitmapImage x:Key="Export" UriSource="Image\Export.ico"></BitmapImage>
+            <BitmapImage x:Key="ExportExcel" UriSource="Image\Excel.ico"></BitmapImage>
+            <BitmapImage x:Key="Exporttxt" UriSource="Image\TXT.ico"></BitmapImage>
+            <BitmapImage x:Key="Top" UriSource="Image\Top.ico"></BitmapImage>
+            <BitmapImage x:Key="Bottom" UriSource="Image\Bottom.ico"></BitmapImage>
+            <BitmapImage x:Key="Front" UriSource="Image\Front.ico"></BitmapImage>
+            <BitmapImage x:Key="Back" UriSource="Image\Back.ico"></BitmapImage>
+            <BitmapImage x:Key="Left" UriSource="Image\Left.ico"></BitmapImage>
+            <BitmapImage x:Key="Right" UriSource="Image\Right.ico"></BitmapImage>
+            <BitmapImage x:Key="I_Concreate" UriSource="Image\I_Concreate.ico"></BitmapImage>
+            <BitmapImage x:Key="T_Concreate" UriSource="Image\T_Concreate.ico"></BitmapImage>
+            <BitmapImage x:Key="Rec_Concreate" UriSource="Image\Rec_Concreate.ico"></BitmapImage>
+            <BitmapImage x:Key="Cir_Concreate" UriSource="Image\Cir_Concreate.ico"></BitmapImage>
+
+            <BitmapImage x:Key="I_Steel" UriSource="Image\I_Steel.ico"></BitmapImage>
+            <BitmapImage x:Key="C_Steel" UriSource="Image\C_Steel.ico"></BitmapImage>
+            <BitmapImage x:Key="Rec_Steel" UriSource="Image\Rec_Steel.ico"></BitmapImage>
+            <BitmapImage x:Key="Cir_Steel" UriSource="Image\Cir_Steel.ico"></BitmapImage>
+        </ResourceDictionary>
+      
+    </Application.Resources>
+</Application>

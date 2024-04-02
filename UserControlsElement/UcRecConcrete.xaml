@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="NCKH.UserControlsElement.UcRecConcrete"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NCKH.UserControlsElement"
+             Width="630"
+             x:Name="Rec_Con_Dim_Form"
+             DataContext="{StaticResource MainViewModel}">
+    <Grid >
+        <GroupBox Header="Section Dimmention"
+                  Margin="10,10,10,0"
+                  Grid.Row="0"
+                          Style="{StaticResource GroupStyle}">
+            <Grid x:Name="Grid_Rec">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0"
+                                   Grid.Column="0"
+                                   Padding="10,10,0,0"
+                                   Text="Height"
+                           ></TextBlock>
+                <TextBlock Grid.Row="1"
+                                   Grid.Column="0"
+                                   Padding="10,10,0,0"
+                                   Text="Width"></TextBlock>
+                <TextBox  Margin="-25,7.5,65,7.5"
+                              Grid.Row="0"
+                              Grid.Column="1"
+                          x:Name="txb_Height"></TextBox>
+                <TextBox  Margin="-25,7.5,65,7.5"
+                              Grid.Row="1"
+                          x:Name="txb_Width"
+                              Grid.Column="1"></TextBox>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

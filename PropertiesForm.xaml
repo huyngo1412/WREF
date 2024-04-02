@@ -1,0 +1,193 @@
+﻿<Window x:Class="NCKH.PropertiesForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NCKH"
+        mc:Ignorable="d"
+        Title="Properties " Height="410" Width="550"
+        DataContext="{StaticResource MainViewModel}"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded"
+        Icon="{StaticResource NCKH}"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TabControl Margin="5,10,5,5"
+                    x:Name="Tab_Material">
+
+            <TabItem Header="Material" Style="{StaticResource TabItemStyle}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                       
+                        <ColumnDefinition Width="350"/>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="290"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ListView 
+                        x:Name="lv_Mat"
+                        Grid.Column="0"
+                        Margin="5,5,5,5"
+                        Background="Transparent" 
+                        BorderBrush="Black" 
+                        BorderThickness="1"
+                        ItemsSource="{Binding Material}"
+                        >
+                        
+                        <ListView.View>
+                            <GridView>
+
+
+                                <GridViewColumn Header="ID" Width="30"
+                                                DisplayMemberBinding="{Binding ID}">
+
+                                </GridViewColumn>
+                                <GridViewColumn Header="Name" Width="auto"
+                                                DisplayMemberBinding="{Binding Name}">
+
+                                </GridViewColumn>
+
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Grid Grid.Column="1"  Margin="0,0,0,50" Grid.RowSpan="2"
+                          >
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0"
+                                    Margin="5"
+                                    >
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Add..."
+                                    x:Name="btn_Add_Mat"
+                                    Command="{Binding OpenFormMaterialPropertieData}"
+                                    >
+
+                            </Button>
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Modify..."
+                                    x:Name="btn_Modify_Mat"></Button>
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Delete..."
+                                    x:Name="btn_Delete_Mat"></Button>
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Copy..."
+                                    x:Name="btn_Copy_Mat"></Button>
+                        </StackPanel>
+                        
+                    </Grid>
+                    <Button Grid.Row="1"
+                            Grid.Column="1"
+                
+                
+               
+                FontSize="10"
+                 Margin="15,0,15,0"
+                                    Height="20"
+                Content="Close"
+                x:Name="btn_CloseUC_1"
+                ></Button>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Section" Style="{StaticResource TabItemStyle}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="350"/>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="290"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ListView 
+                        x:Name="lv_Sec"
+                        Grid.Column="0"
+                        Margin="5,5,5,5"
+                        Background="Transparent" 
+                        BorderBrush="Black" 
+                        BorderThickness="1"
+                        ItemsSource="{Binding Section}"
+                        >
+
+                        <ListView.View>
+                            <GridView>
+
+
+                                <GridViewColumn Header="ID" Width="auto"
+                                                DisplayMemberBinding="{Binding ID}">
+
+                                </GridViewColumn>
+                                <GridViewColumn Header="Name" Width="auto"
+                                                DisplayMemberBinding="{Binding Name}">
+
+                                </GridViewColumn>
+
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Grid Grid.Column="1"  Margin="0,0,0,50" Grid.RowSpan="2"
+                          >
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0"
+                                    Margin="5"
+                                    >
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Add..."
+                                    
+                                    Command="{Binding OpenShapeForm}"
+                                    >
+
+                            </Button>
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Modify..."
+                                    ></Button>
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Delete..."
+                                    ></Button>
+                            <Button Margin="10,10,10,0"
+                                    Height="20"
+                                    Content="Copy..."
+                                    ></Button>
+                        </StackPanel>
+                        <Canvas Grid.Row="1"
+                                Margin="10,0,10,-10"
+                                Background="{StaticResource BlackText}"></Canvas>
+                    </Grid>
+                    <Button Grid.Row="1"
+                            Grid.Column="1"
+                
+                
+               
+                FontSize="10"
+                Margin="15,0,15,0"
+                                    Height="20"
+                Content="Close"
+                x:Name="btn_CloseUC_2"></Button>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
